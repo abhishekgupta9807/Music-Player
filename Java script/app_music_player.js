@@ -8,7 +8,7 @@
 	    var c=0;
 		for(var i=0;i<songs.length;i++){
 			if(i%3==0){
-				c = 0;
+				c = 1;
 			}
 			poster.push("images/Poster"+(++c)+".jpg");
 		}
